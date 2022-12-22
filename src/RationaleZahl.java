@@ -14,6 +14,7 @@ public class RationaleZahl {
         this.nenner = nenner;
     }
 
+
     public RationaleZahl addiere(RationaleZahl zahl) {
         var z = this.zaeler * zahl.nenner + zahl.zaeler * this.nenner;
         var n = this.nenner * zahl.nenner;
